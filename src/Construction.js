@@ -11,8 +11,12 @@ const Construction = () => {
 	return (
 		<div className="construction">
 			<div className="construction__navbar">
-				<FontDownloadOutlinedIcon style={{ fontSize: 50 }} />
-				<h1>Home</h1>
+				<IconButton href="https://www.andresthedev.com">
+					<FontDownloadOutlinedIcon style={{ fontSize: 50 }} />
+				</IconButton>
+				<a href="https://www.andresthedev.com" rel="noreferrer">
+					Home
+				</a>
 			</div>
 			<div className="construction__title">
 				<h3>Our new site is</h3>
@@ -23,16 +27,22 @@ const Construction = () => {
 				<h3>Stay Tuned!</h3>
 			</div>
 			<div className="construction__social">
-				<IconButton>
+				<IconButton
+					target="_blank"
+					href="https://www.facebook.com/andres.medrano.98"
+				>
 					<FacebookIcon style={{ fontSize: 35 }} />
 				</IconButton>
-				<IconButton>
+				<IconButton
+					target="_blank"
+					href="https://www.linkedin.com/in/andres-medrano-19ba91132/"
+				>
 					<LinkedInIcon style={{ fontSize: 35 }} />
 				</IconButton>
 				<IconButton>
 					<TwitterIcon style={{ fontSize: 35 }} />
 				</IconButton>
-				<IconButton>
+				<IconButton target="_blank" href="https://github.com/amedra13">
 					<GitHubIcon style={{ fontSize: 35 }} />
 				</IconButton>
 			</div>

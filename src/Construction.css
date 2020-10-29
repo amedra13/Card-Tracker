@@ -25,6 +25,11 @@
 	align-items: center;
 	font-family: 'Barlow Condensed', sans-serif;
 }
+.construction__navbar a {
+	text-decoration: none;
+	color: var(--main-bg-color);
+	font-size: 40px;
+}
 .construction__title {
 	text-align: center;
 	border: 2px solid var(--main-bg-color);
@@ -46,7 +51,7 @@
 	width: 30%;
 	display: flex;
 	justify-content: space-evenly;
-	transform: translateY(-60px);
+	transform: translateY(-40px);
 }
 .construction__social > * {
 	color: var(--main-bg-color) !important;
