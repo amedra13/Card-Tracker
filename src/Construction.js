@@ -20,7 +20,7 @@ const Construction = () => {
 					<h1>Coming</h1>
 					<h1>Soon</h1>
 				</div>
-				<h3>Stay Tuned</h3>
+				<h3>Stay Tuned!</h3>
 			</div>
 			<div className="construction__social">
 				<IconButton>
